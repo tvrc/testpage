@@ -1,0 +1,51 @@
+.wiersz_1 {
+    background-image: url(images/sky.jpeg);
+    background-position: 0, -1000px;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+.wiersz_1_BrandNazwa {
+    font-family: 'Signika';
+    color: white;
+    font-size: 140px;
+    text-align: center;
+    padding: 10% 10% 0% 10%;
+}
+
+.wiersz_1_BrandSlogan {
+    font-family: 'Signika';
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 0% 10% 15% 10%;
+}
+
+.wiersz_2 {
+    background-image: url(images/side-valley-farms.jpg);
+    background-position: -500px, -1000px;
+    padding: 10% 5% 10% 5%;
+}
+
+.opis {
+    font-family: 'Signika';
+    color: white;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.opis-naglowek {
+    font-size: 36px;
+    text-align: center;
+}
+
+.opis-opis {
+    font-size: 26px; 
+};
+
+.wiersz_3 {
+    background: gray;
+}
+.wiersz_3 .container {
+    background: lightsalmon;
+}

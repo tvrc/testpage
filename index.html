@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>navbar02</title>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="jquery-scrollto.js"></script>
+        
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function() {
+               
+                $('nav li a').click(function(e){
+                    e.preventDefault;
+                    var id = $(this).attr('href');
+                    $(id).ScrollTo({
+                       duration: 800 
+                    });
+                });
+                
+            });
+        </script>
+        
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    
+    </head>
+    
+    <body id="top-page">
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top-page">Brand name</a>
+                </div>
+                
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href ="#sekcja_1">Sekcja 1</a></li>
+                        <li><a href ="#sekcja_2">Sekcja 2</a></li>
+                        <li><a href ="#sekcja_3">Sekcja 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+        <div id="sekcja_1" class="row wiersz_1">
+            <div class="container">
+                <div class="row wiersz_1_BrandNazwa">
+                    Brand.
+                </div>
+                
+                <div class="row wiersz_1_BrandSlogan">
+                    Lorem ipsum dolor sit amet.
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="sekcja_2" class="row wiersz_2">
+            <div class="container">
+                <div class="col-md-6 opis">
+                    <div class="row opis-naglowek">
+                        Lorem
+                    </div>
+                    <div class="row opis-opis">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci.
+                    </div>
+                </div>
+                
+                <div class="col-md-6 opis">
+                    <div class="row opis-naglowek">
+                        Ipsum
+                    </div>
+                    <div class="row opis-opis">
+                        Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                    </div>
+                    
+                </div> 
+            </div>
+        </div>
+
+        <div id="sekcja_3" class="row wiersz_3">
+            <div class="container">
+                
+            </div>
+        </div>
+        
+    
+    </body>
+    
+</html>
