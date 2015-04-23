@@ -49,3 +49,27 @@
 .wiersz_3 .container {
     background: lightsalmon;
 }
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #262626;
+}
+
+.footer .container .text-muted {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Signika';
+    color: white;
+}
+
+body {
+    background-color: #262626;   
+}
+
+.navbar {
+  box-shadow: none;
+  background-image:none;
+}
